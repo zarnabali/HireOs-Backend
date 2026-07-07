@@ -1,0 +1,52 @@
+{
+  "name": "hireos-backend",
+  "version": "0.1.0",
+  "private": true,
+  "type": "commonjs",
+  "scripts": {
+    "dev": "tsx watch src/server.ts",
+    "build": "tsc",
+    "start": "node dist/server.js",
+    "typecheck": "tsc --noEmit",
+    "test": "vitest run",
+    "supabase:help": "npx supabase --help",
+    "supabase:login": "npx supabase login",
+    "supabase:link": "npx supabase link",
+    "supabase:status": "npx supabase status",
+    "supabase:migrate": "node scripts/supabase-db-push.js",
+    "supabase:migrate:dry": "node scripts/supabase-db-push.js --dry-run",
+    "supabase:migrations": "npx supabase migration list",
+    "supabase:new": "npx supabase migration new",
+    "seed:recruiter-ai-demo": "tsx scripts/seed-recruiter-ai-demo.ts"
+  },
+  "dependencies": {
+    "@supabase/supabase-js": "^2.45.4",
+    "bcryptjs": "^2.4.3",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "express-rate-limit": "^7.4.0",
+    "helmet": "^7.1.0",
+    "jsonwebtoken": "^9.0.2",
+    "morgan": "^1.10.0",
+    "multer": "^1.4.5-lts.1",
+    "ws": "^8.21.0",
+    "zod": "^3.23.8"
+  },
+  "devDependencies": {
+    "@types/bcryptjs": "^2.4.6",
+    "@types/cors": "^2.8.17",
+    "@types/express": "^4.17.21",
+    "@types/jsonwebtoken": "^9.0.6",
+    "@types/morgan": "^1.9.9",
+    "@types/multer": "^2.2.0",
+    "@types/node": "^22.7.4",
+    "@types/supertest": "^6.0.2",
+    "@types/ws": "^8.18.1",
+    "supabase": "^2.48.3",
+    "supertest": "^7.0.0",
+    "tsx": "^4.19.1",
+    "typescript": "^5.6.2",
+    "vitest": "^4.1.9"
+  }
+}

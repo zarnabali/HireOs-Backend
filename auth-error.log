@@ -1,0 +1,48 @@
+{
+  "name": "AuthApiError",
+  "message": "A user with this email address has already been registered",
+  "status": 422,
+  "code": "email_exists"
+}
+{
+  "name": "AuthApiError",
+  "message": "A user with this email address has already been registered",
+  "status": 422,
+  "code": "email_exists"
+}
+{
+  "name": "AuthApiError",
+  "message": "A user with this email address has already been registered",
+  "status": 422,
+  "code": "email_exists"
+}
+{
+  "name": "AuthApiError",
+  "message": "A user with this email address has already been registered",
+  "status": 422,
+  "code": "email_exists"
+}
+{
+  "name": "AuthApiError",
+  "message": "A user with this email address has already been registered",
+  "status": 422,
+  "code": "email_exists"
+}
+{
+  "name": "AuthApiError",
+  "message": "A user with this email address has already been registered",
+  "status": 422,
+  "code": "email_exists"
+}
+{
+  "name": "AuthApiError",
+  "message": "A user with this email address has already been registered",
+  "status": 422,
+  "code": "email_exists"
+}
+{
+  "name": "AuthApiError",
+  "message": "A user with this email address has already been registered",
+  "status": 422,
+  "code": "email_exists"
+}

@@ -1,0 +1,26 @@
+import { BaseService } from './base.service';
+
+export const usersService = new BaseService('users');
+export const companiesService = new BaseService('companies');
+export const companyMembersService = new BaseService('company_members');
+export const candidateProfilesService = new BaseService('candidate_profiles');
+export const recruiterProfilesService = new BaseService('recruiter_profiles');
+export const jobsService = new BaseService('jobs');
+export const applicationsService = new BaseService('applications');
+export const documentsService = new BaseService('documents');
+export const documentExtractionsService = new BaseService('document_extractions');
+export const resumesService = new BaseService('resumes');
+export const resumeVersionsService = new BaseService('resume_versions');
+export const resumeScoresService = new BaseService('resume_scores');
+export const candidateJobScoresService = new BaseService('candidate_job_scores');
+export const candidateJobMatchesService = new BaseService('candidate_job_matches');
+export const interviewQuestionsService = new BaseService('interview_questions');
+export const mockInterviewsService = new BaseService('mock_interviews');
+export const mockInterviewMessagesService = new BaseService('mock_interview_messages');
+export const mockInterviewEvaluationsService = new BaseService('mock_interview_evaluations');
+export const conversationsService = new BaseService('conversations');
+export const conversationMessagesService = new BaseService('conversation_messages');
+export const savedJobsService = new BaseService('saved_jobs');
+export const notificationsService = new BaseService('notifications');
+export const skillsService = new BaseService('skills');
+export const auditLogsService = new BaseService('audit_logs');
