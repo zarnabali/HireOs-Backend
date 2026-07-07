@@ -15,7 +15,7 @@ const envSchema = z.object({
   JWT_SECRET: z.string().min(32),
   JWT_EXPIRES_IN: z.string().default('15m'),
   REFRESH_TOKEN_DAYS: z.coerce.number().int().positive().default(30),
-  AI_SERVICE_URL: z.string().url().default('http://localhost:8000'),
+  AI_SERVICE_URL: z.string().url().default('http://localhost:8000').transform(url => url.replace(/\/$/, '')),
   AI_SERVICE_API_KEY: z.string().min(1).default('local-dev-ai-service-key'),
   DIAGNOSTICS_API_KEY: z.string().min(16).optional()
 });
